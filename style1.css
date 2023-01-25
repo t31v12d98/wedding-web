@@ -36,7 +36,7 @@
 			position: relative;
 			text-align: center;
 			font-family: "cursive"; 
-			font-size: 50px; 
+			font-size: 30px; 
 			font-style: italic; 
 			font-variant: normal; 
 			font-weight: 700; 
@@ -47,14 +47,15 @@
 			position: relative;
 			text-align: center;
 			font-family: "cursive;";
-			font-size: 50px;
+			font-size: 25px;
 			font-style: italic;
 			font-variant: normal;
 			font-weight: 750;
 			font-color: #6699CC;
 			float: none;
-			margin-top: 560px;
-			text-shadow: 3px 3px black;
+			margin-top: 605px;
+			text-shadow: 1px 1px black;
+			margin-bottom: -10px;
 
 		}
 		.container .cover-2 img {
@@ -87,7 +88,7 @@
 			font-size: 70px;
 			font-style: italic;
 			font-variant: normal;
-			font-weight: 750;
+			font-weight: 600;
 			text-align: center;
 			color: #FF9933;
 			float: none;
@@ -177,7 +178,7 @@
 			font-size: 80px; 
 			font-style: normal; 
 			font-variant: normal; 
-			font-weight: 700; 
+			font-weight: 550; 
 			line-height: 60px;
 			font-color: #111;
 			float: none;
@@ -194,7 +195,7 @@
 			font-size: 80px; 
 			font-style: normal; 
 			font-variant: normal; 
-			font-weight: 700; 
+			font-weight: 550; 
 			line-height: 60px; 
 			font-color: #111;
 			float: none;
@@ -304,10 +305,10 @@
 		}
 		.see-all {
 			width: 1024px;
-			height: 200px;
+			height: 125px;
 			position: relative;
 			margin-top: 0px;
-			background-color: #000077;
+			background-color: #99a498;
 			border: 0px solid red;
 
 		}
@@ -315,7 +316,6 @@
 			width: 1024px;
 			height: 500px;
 			position: relative;
-			margin-top: 20px;
 			border: 0px solid red;
 		} 
 		.flip {
@@ -354,19 +354,21 @@
 	font-family: sans-serif;
 	}
 .btn {
-	left: 25%;
-	top: 50%;
-	position: absolute;
+	left: 33%;
+	position: relative;
 	transform: translate(-50%, -50%);
 	color: #FF6600;
-	padding: 30px 60px;
-	font-size: 30px;
-	letter-spacing: 2px;
+	padding: 20px 30px 20px 30px;
+	font-size: 22px;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
 	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 	overflow: hidden;
+	background-color: #3b84c8;
+	font-weight: 700;
+	height: 25px;
+    width: 200px;
 }
 .btn-1 {
 	left: 70%;
@@ -374,7 +376,7 @@
 	position: absolute;
 	transform: translate(-50%, -50%);
 	color: #FF6600;
-	padding: 30px 60px;
+	padding: 15px 20px 15px 30px;
 	font-size: 30px;
 	letter-spacing: 2px;
 	text-align: center;
@@ -382,6 +384,9 @@
 	text-decoration: none;
 	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 	overflow: hidden;
+	background-color: #3b84c8;
+	font-weight: 600;
+
 }
 a:before {
 	content: '';
@@ -485,7 +490,7 @@ a span:nth-child(4)
 	display: block;
 	margin-top: 700px;
 	text-align: center;
-	font-family: "Herr Von Muellerhoff";
+	font-family: "Jazz LET";
 	font-size: 30px;
 	font-style: italic;
 	font-variant: normal;
