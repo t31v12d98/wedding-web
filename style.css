@@ -9,7 +9,7 @@
 			margin: 0;
 			padding: 0;
 			position: relative;
-			background-image: url("https://live.staticflickr.com/65535/52646858331_e76ffe0b85_h.jpg");
+			background-image: url(img/z4072092956422_f3709e8364149678b4ab09fa4cc2d0f8.jpg);
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-attachment: fixed;
@@ -175,7 +175,7 @@
 			margin-top: 25px;
 			text-align: center;
 			font-family: "Brush Script MT"; 
-			font-size: 80px; 
+			font-size: 60px; 
 			font-style: normal; 
 			font-variant: normal; 
 			font-weight: 550; 
@@ -194,7 +194,7 @@
 			margin-top: 755.8px;
 			text-align: center;
 			font-family: "Brush Script MT"; 
-			font-size: 80px; 
+			font-size: 60px; 
 			font-style: normal; 
 			font-variant: normal; 
 			font-weight: 550; 
@@ -388,7 +388,7 @@
 	text-decoration: none;
 	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 	overflow: hidden;
-	background-color: #1769ff;
+	background-color: #cc9048;
 	font-weight: 700;
 	height: 25px;
     width: 200px;
