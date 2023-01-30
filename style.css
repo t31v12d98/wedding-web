@@ -90,7 +90,7 @@
 			font-variant: normal;
 			font-weight: 600;
 			text-align: center;
-			color: #FF9933;
+			color: #FF6600;
 			float: none;
 			border: 0px solid red;
 			inline-size: 2px;
@@ -172,7 +172,7 @@
 			position: absolute;
 			display: block;
 			margin-left: 355px;
-			margin-top: 50px;
+			margin-top: 25px;
 			text-align: center;
 			font-family: "Brush Script MT"; 
 			font-size: 80px; 
@@ -182,6 +182,8 @@
 			line-height: 60px;
 			font-color: #111;
 			float: none;
+			color: #0066FF;
+			text-shadow: 3px 2px black;
 		}
 		.layout-1 .text-2 {
 			width: 660.6px;
@@ -199,6 +201,8 @@
 			line-height: 60px; 
 			font-color: #111;
 			float: none;
+			color: #0066FF;
+			text-shadow: 3px 2px black;
 		}
 		.layout-2 {
 			width: 1024px;
@@ -305,18 +309,32 @@
 		}
 		.see-all {
 			width: 1024px;
-			height: 125px;
+			height: 150px;
 			position: relative;
-			margin-top: 0px;
-			background-color: #99a498;
+			margin-top: 450px;
+			background: none;
+			/*
+			background-color: ;
+			background-image: url("https://live.staticflickr.com/65535/52646858331_e76ffe0b85_h.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
 			border: 0px solid red;
-
+			*/
+			opacity: 90%;
+			border-radius: 500px;
+			resize: cover;
+			overflow: auto;
+			object-fit: cover;
 		}
 		.slider-img {
 			width: 1024px;
-			height: 500px;
+			height: 550px;
 			position: relative;
 			border: 0px solid red;
+			margin-top: 10px;
+			overflow: visible;
+			resize: cover;
 		} 
 		.flip {
 			width: 100%;
@@ -328,10 +346,10 @@
 		}
 		.slider {
 			width: 100%;
-			height: 100vh;
+			height: 1000px;
 			background: #000;
 			overflow: hidden;
-			margin-top: 0%;
+			margin-top: 5%;
 		}
 		.slider .carousel {
 			width: 100%;
@@ -342,22 +360,27 @@
 			-webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
 		}
 		.see-all-album {
-	margin-top: 50px;
-	margin-left: 100px;
-	background: #FF6600;
+	margin-top: 75px;
+	margin-left: 500px;
+	background: #1769ff;
 	font-family: sans-serif;
+	border: 0px solid red;
+	position: absolute;
+	opacity: 100%;
 	}
+	/*
 	.see-all-album-1 {
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-left: 100px;
 	background: #FF6600;
 	font-family: sans-serif;
 	}
+	*/
 .btn {
 	left: 33%;
-	position: relative;
+	position: absolute;
 	transform: translate(-50%, -50%);
-	color: #FF6600;
+	color: #FF0000;
 	padding: 20px 30px 20px 30px;
 	font-size: 22px;
 	text-align: center;
@@ -365,11 +388,13 @@
 	text-decoration: none;
 	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 	overflow: hidden;
-	background-color: #3b84c8;
+	background-color: #1769ff;
 	font-weight: 700;
 	height: 25px;
     width: 200px;
+
 }
+/*
 .btn-1 {
 	left: 70%;
 	top: 50%;
@@ -388,6 +413,7 @@
 	font-weight: 600;
 
 }
+*/
 a:before {
 	content: '';
 	position: absolute;
@@ -485,10 +511,10 @@ a span:nth-child(4)
 }
 .the-end {
 	width: 1024px;
-	height: 300px;
+	height: 200px;
 	position: relative;
 	display: block;
-	margin-top: 700px;
+	margin-top: 0px;
 	text-align: center;
 	font-family: "Jazz LET";
 	font-size: 30px;
@@ -497,6 +523,9 @@ a span:nth-child(4)
 	font-weight: 750;
 	font-color: #111;
 	float: none;
+	color: #111;
+	text-shadow: 1px 1px black;
+
 }
 		/* font sử dụng trong này
 		h1 { font-family: "Homemade Apple"; 
